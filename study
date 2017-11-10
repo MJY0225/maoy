@@ -1,0 +1,15 @@
+sports=[]
+sports.append('football')
+sports.append('basketball')
+sports.append('vollyball')
+people=[]
+people.insert(0,'Ronaldo')
+people.insert(1,'Jodan')
+people.insert(2,'TingZhu')
+for ralation in sports:
+    if ralation=='football':
+        print(people[0]+'are famouse '+str(ralation)+'player!')
+    elif ralation=='basketball':
+        print(people[1])+'are famouse '+str(ralation)+'player!')
+    else:
+        print(people[2]+'are famouse '+str(ralation)+'player!')
